@@ -4,7 +4,7 @@ If a constants or a variable is only used in one file, then it should be declare
 that file and not here.
 """
 
-DEV_MODE: bool = False
+DEV_MODE: bool = True
 
 PROFILE_SETTINGS_FILE_NAME = "ankimorphs_profile_settings.json"
 

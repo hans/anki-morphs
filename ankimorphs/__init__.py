@@ -536,5 +536,11 @@ def test_function() -> None:
 
     am_db.con.close()
 
+    cmd = 'C:\Python27\python.exe C:\path_to\script.py -n "Testç on ã and ê"'.encode(
+        "mbcs"
+    )
+
+    print(f"cmd: {cmd}")
+
 
 main()
